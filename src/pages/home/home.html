@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Placement App
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list >
+  <button (click)="onLoadStudentDetails()" ion-button round color="light" style="text-transform: none;" icon-left>
+      <ion-icon name="person-add" ></ion-icon>
+        Manage Student
+  </button>
+</ion-list >
+<ion-list >
+  <button (click)="onLoadCompanyDetails()" ion-button round color="light" style="text-transform: none;" icon-left>
+        <ion-icon name="md-trending-up" icon-left></ion-icon>
+          Manage Company
+   </button>
+</ion-list >
+</ion-content>
